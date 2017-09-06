@@ -2,27 +2,54 @@
 
 <html>
 
-	<head>
-		<meta charset="UTF-8" />
-		<title>Quizz</title>
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-	</head>
-	
-	<body>
-	
-		<h1>Quizz</h1>
-		
-		<div class="question">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Quizz</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+			<h1>Quizz</h1>
+			<div class="question">
 			<h2 class="questionno">Question 1</h2>
 			<span>Est-ce que test ?</span>
+			</div>
+			<div class="answers">
+				<div class="answer1">
+					<span class="fa-stack">
+						<span class="fa fa-circle-o fa-stack-2x" alt="choice"></span>
+					</span>
+					Test 1
+				</div>
+				<div class="answer2 correct">
+					<span class="fa-stack">
+						<span class="fa fa-circle-o fa-stack-2x" alt="choice"></span>
+					</span>
+					Correct answer
+				</div>
+				<div class="answer3 wrong">
+					<span class="fa-stack">
+						<span class="fa fa-circle-o fa-stack-2x" alt="choice"></span>
+					</span>
+					Wrong answer
+				</div>
+				<div class="answer4">
+					<span class="fa-stack">
+						<span class="fa fa-circle-o fa-stack-2x" alt="choice"></span>
+						<span class="fa fa-circle fa-stack-1x" alt="picked"></span>
+					</span>
+					Picked answer
+				</div>
+			</div>
+			<div class="defile">
+				<div class="previous"><span class="fa fa-angle-left fa-2x" alt="previous"></span></div>
+				<div class="next"><span class="fa fa-angle-right fa-2x" alt="next"></span></div>
+			</div>
 		</div>
-		<div class="answers">
-			<div class="answer1">Test 1</div>
-			<div class="answer2">Test 2</div>
-			<div class="answer3">Test 3</div>
-			<div class="answer4">Test 4</div>
-		</div>
-	
-	</body>
+
+    </body>
 
 </html>
