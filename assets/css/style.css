@@ -8,44 +8,44 @@ body {
 }
 
 .container {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin: 1rem 30%;
-    background: linear-gradient(to bottom right, #0ABDF2 50%, #3095DA 50%);
-    color: #eef2f3;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin: 1rem 30%;
+	background: linear-gradient(to bottom right, #0ABDF2 50%, #3095DA 50%);
+	color: #eef2f3;
 	padding: 1rem 0 2em 0;
 }
 
 h1 {
-    text-transform: uppercase;
-    font-size: 200%;
+    	text-transform: uppercase;
+    	font-size: 200%;
 	font-weight: bold;
 	margin: auto;
 }
 
 .question {
-    padding: .2em 0;
+    	padding: .2em 0;
 }
 
 .answers, .defile {  
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    justify-content: center;
-    margin: .5rem;
-    flex-wrap: wrap;
+    	display: flex;
+    	flex-direction: column;
+    	align-content: space-around;
+    	justify-content: center;
+    	margin: .5rem;
+    	flex-wrap: wrap;
 }
 
 .answers div, .defile div {
-    margin: .5rem;
-    color: #DADADA;
+    	margin: .5rem;
+    	color: #DADADA;
 }
 
 .answers div {
-    background-color: #51c4ae;
-    min-width: 50%;
-    padding: 1em;
-    text-align: left;
+    	background-color: #51c4ae;
+   	min-width: 50%;
+    	padding: 1em;
+    	text-align: left;
 	vertical-align: center;
 }
 
@@ -54,12 +54,13 @@ h1 {
 }
 
 .defile {	
-    flex-direction: row;
-    justify-content: space-around;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 1em;
 }
 
 .defile div {	
-    background-color: #60C;
+    	background-color: #60C;
 	vertical-align: center;
 	text-align: center;
 	padding: .5em 1.2em;
